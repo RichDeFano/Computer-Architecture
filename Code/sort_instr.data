@@ -1,0 +1,54 @@
+88100001 // ADI R1,R0,01		LINE00
+88200001 // ADI R2,R0,01		LINE01
+80500001 // CLR R5			LINE02
+88450001 // ADI R4,R5,0001		LINE03
+10300000 // LDA R3,M(#0000)		LINE04
+6000000E //BRA L2-2			LINE05
+
+//-----L1-----//
+88110001 // INC R1 			LINE06
+80831002 // SUB R8,R3,R1		LINE07
+41000016 // BRA L3 if i=N		LINE08
+88200001 // R2= 1			LINE09
+6000000E //BRA L2-2(unc)		LINE0A
+
+
+//-----L2-----//
+88220001 // INC R2			LINE0B
+80832002 // SUB R8<-R3,R2		LINE0C
+41000006 // BRA L1 if J=N		LINE0D
+//----L2-2----//			
+18620000 // LDX R6,R2,M(0000)		LINE0E
+18720001 // LDX R7,R2,M(0001)		LINE0F
+80876002 // SUB R8,R7,R6		LINE10
+6200000B // BRA L2			LINE11
+30760000 // SWP R7,R6			LINE12
+28620000 // STX R6,R2,(#0000)		LINE13
+28720001 // STX R7,R2,(#0001)		LINE14
+6000000B // BRA L2			LINE15
+//-----L3-----//
+F0000000 // HLT				LINE16
+
+// Register Descriptions:
+//R1: I
+//R2: J
+//R3: N
+//R4: tmp
+//R6: Arr[j]
+//R7: Arr[j+1]
+//R8: Subtraction Temp Register
+
+/*Pseudo Code:
+//Clear All Registers
+//Load I,J,N with N value(at mem loc 0)
+//I Loop:
+//	Load J with N-1-Icount
+//	JLoop:
+//		inc J
+//		if j=0, branch to I loop
+//		else
+//		load R6 with Arr[j], load R7 with arr[J+1]
+//		subtract the two, check if zero/negative
+//		if negative, swap them and store them in memory in other locations
+//		otherwise branch back up to j loop. 
+*/

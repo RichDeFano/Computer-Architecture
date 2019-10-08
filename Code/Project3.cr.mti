@@ -1,0 +1,106 @@
+{C:/Users/Dylan/Desktop/Computer Architecture and Orginazation/Project/Part 3/Project3/Project3/ctrl.v} {1 {vlog -work work -stats=none {C:/Users/Dylan/Desktop/Computer Architecture and Orginazation/Project/Part 3/Project3/Project3/ctrl.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module ctrl
+
+Top level modules:
+	ctrl
+
+} {} {}} {C:/Users/Dylan/Desktop/Computer Architecture and Orginazation/Project/Part 3/Project3/Project3/im.v} {1 {vlog -work work -stats=none {C:/Users/Dylan/Desktop/Computer Architecture and Orginazation/Project/Part 3/Project3/Project3/im.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module im
+
+Top level modules:
+	im
+
+} {} {}} {C:/Users/Dylan/Desktop/Computer Architecture and Orginazation/Project/Part 3/Project3/Project3/dm.v} {1 {vlog -work work -stats=none {C:/Users/Dylan/Desktop/Computer Architecture and Orginazation/Project/Part 3/Project3/Project3/dm.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module dm
+
+Top level modules:
+	dm
+
+} {} {}} {C:/Users/Dylan/Desktop/Computer Architecture and Orginazation/Project/Part 3/Project3/Project3/swpmux32.v} {1 {vlog -work work -stats=none {C:/Users/Dylan/Desktop/Computer Architecture and Orginazation/Project/Part 3/Project3/Project3/swpmux32.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module swp32
+
+Top level modules:
+	swp32
+
+} {} {}} {C:/Users/Dylan/Desktop/Computer Architecture and Orginazation/Project/Part 3/Project3/Project3/sisc_tb_p3.v} {1 {vlog -work work -stats=none {C:/Users/Dylan/Desktop/Computer Architecture and Orginazation/Project/Part 3/Project3/Project3/sisc_tb_p3.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module sisc_tb
+
+Top level modules:
+	sisc_tb
+
+} {} {}} {C:/Users/Dylan/Desktop/Computer Architecture and Orginazation/Project/Part 3/Project3/Project3/mux32_3.v} {1 {vlog -work work -stats=none {C:/Users/Dylan/Desktop/Computer Architecture and Orginazation/Project/Part 3/Project3/Project3/mux32_3.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module mux32_3
+
+Top level modules:
+	mux32_3
+
+} {} {}} {C:/Users/Dylan/Desktop/Computer Architecture and Orginazation/Project/Part 3/Project3/Project3/sisc.v} {1 {vlog -work work -stats=none {C:/Users/Dylan/Desktop/Computer Architecture and Orginazation/Project/Part 3/Project3/Project3/sisc.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module sisc
+
+Top level modules:
+	sisc
+
+} {} {}} {C:/Users/Dylan/Desktop/Computer Architecture and Orginazation/Project/Part 3/Project3/Project3/ir.v} {1 {vlog -work work -stats=none {C:/Users/Dylan/Desktop/Computer Architecture and Orginazation/Project/Part 3/Project3/Project3/ir.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module ir
+
+Top level modules:
+	ir
+
+} {} {}} {C:/Users/Dylan/Desktop/Computer Architecture and Orginazation/Project/Part 3/Project3/Project3/pc.v} {1 {vlog -work work -stats=none {C:/Users/Dylan/Desktop/Computer Architecture and Orginazation/Project/Part 3/Project3/Project3/pc.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module pc
+
+Top level modules:
+	pc
+
+} {} {}} {C:/Users/Dylan/Desktop/Computer Architecture and Orginazation/Project/Part 3/Project3/Project3/br.v} {1 {vlog -work work -stats=none {C:/Users/Dylan/Desktop/Computer Architecture and Orginazation/Project/Part 3/Project3/Project3/br.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module br
+
+Top level modules:
+	br
+
+} {} {}} {C:/Users/Dylan/Desktop/Computer Architecture and Orginazation/Project/Part 3/Project3/Project3/mux32.v} {1 {vlog -work work -stats=none {C:/Users/Dylan/Desktop/Computer Architecture and Orginazation/Project/Part 3/Project3/Project3/mux32.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module mux32
+
+Top level modules:
+	mux32
+
+} {} {}} {C:/Users/Dylan/Desktop/Computer Architecture and Orginazation/Project/Part 3/Project3/Project3/rf.v} {1 {vlog -work work -stats=none {C:/Users/Dylan/Desktop/Computer Architecture and Orginazation/Project/Part 3/Project3/Project3/rf.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module rf
+
+Top level modules:
+	rf
+
+} {} {}} {C:/Users/Dylan/Desktop/Computer Architecture and Orginazation/Project/Part 3/Project3/Project3/mux16.v} {1 {vlog -work work -stats=none {C:/Users/Dylan/Desktop/Computer Architecture and Orginazation/Project/Part 3/Project3/Project3/mux16.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module mux16
+
+Top level modules:
+	mux16
+
+} {} {}} {C:/Users/Dylan/Desktop/Computer Architecture and Orginazation/Project/Part 3/Project3/Project3/statreg.v} {1 {vlog -work work -stats=none {C:/Users/Dylan/Desktop/Computer Architecture and Orginazation/Project/Part 3/Project3/Project3/statreg.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module statreg
+
+Top level modules:
+	statreg
+
+} {} {}} {C:/Users/Dylan/Desktop/Computer Architecture and Orginazation/Project/Part 3/Project3/Project3/alu.v} {1 {vlog -work work -stats=none {C:/Users/Dylan/Desktop/Computer Architecture and Orginazation/Project/Part 3/Project3/Project3/alu.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module alu
+
+Top level modules:
+	alu
+
+} {} {}}

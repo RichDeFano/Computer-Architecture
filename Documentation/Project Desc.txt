@@ -1,0 +1,12 @@
+-Dylan Gardner and Rich DeFano-
+
+Part 3 of this project added onto parts 1 and 2 and focused on adding Load, Store and Swap instructions.
+This was accomplished by adding in dm.v as well as our own element called swp_store which helps with swapping.
+dm.v adds memory access to the machine. The dm takes in either a read or write address determined by the mux.
+The mux is choosing from either the immediate address or the immediate plus a register value.
+And with that address it either writes to it with the write_data and dm_we signals or read from it. This value can then be used 
+as the machine wants. That takes care of both storing and loading. Swapping requires a new piece to be added that acts as a 
+storage that can hang onto RSA and RSB and output both values until clocked again. We use this piece along with a few 
+multiplexors in order to write RSA to Rd and RSB to Rs.
+
+We also wrote a machine language program that performs bubble sort on a set of memory components.
